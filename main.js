@@ -1,0 +1,1 @@
+(function(){var b=document.getElementById('menu-toggle'),p=document.getElementById('mobile-panel');if(!b||!p)return;b.addEventListener('click',function(){var o=p.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});})();
